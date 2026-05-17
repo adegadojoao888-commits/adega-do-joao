@@ -53,6 +53,72 @@ body {
   border-radius: 12px;
   text-decoration: none;
   font-weight: bold;
+}.banner{
+  width:100%;
+  max-width:1400px;
+  border-radius:20px;
+  margin-bottom:40px;
+  box-shadow:0 0 40px rgba(255,180,0,.3);
+}
+
+.hero{
+  padding:40px 20px;
+  background:#000;
+  text-align:center;
+}
+
+.overlay h1{
+  font-size:60px;
+  color:#ffb300;
+  font-weight:900;
+  margin-bottom:10px;
+}
+
+.overlay p{
+  color:white;
+  font-size:20px;
+  margin-bottom:30px;
+}
+
+.buttons{
+  display:flex;
+  gap:20px;
+  justify-content:center;
+  flex-wrap:wrap;
+}
+
+.buttons a{
+  background:#25D366;
+  color:white;
+  padding:16px 28px;
+  border-radius:12px;
+  text-decoration:none;
+  font-weight:bold;
+  transition:.3s;
+}
+
+.buttons a:hover{
+  transform:scale(1.05);
+}
+
+.buttons .insta{
+  background:#E1306C;
+}
+
+@media(max-width:768px){
+
+  .overlay h1{
+    font-size:34px;
+  }
+
+  .overlay p{
+    font-size:16px;
+  }
+
+  .banner{
+    border-radius:12px;
+  }
+
 }
 
 .botoesHero .insta {
