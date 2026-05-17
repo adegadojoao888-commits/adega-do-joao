@@ -1,111 +1,60 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
 }
 
-body {
-  background: #050505;
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
+body{
+  background:#000;
+  font-family:Arial, Helvetica, sans-serif;
+  color:white;
 }
 
-.hero {
-  height: 100vh;
-  background-image: url('https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?q=80&w=1400&auto=format&fit=crop');
-  background-size: cover;
-  background-position: center;
-}
-
-.overlay {
-  background: rgba(0,0,0,0.7);
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding: 20px;
-}
-
-.hero h1 {
-  font-size: 4rem;
-  color: #f3b300;
-}
-
-.hero p {
-  margin-top: 15px;
-  font-size: 1.2rem;
-}
-
-.botoesHero {
-  margin-top: 30px;
-  display: flex;
-  gap: 15px;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.botoesHero a {
-  background: #25D366;
-  color: white;
-  padding: 15px 25px;
-  border-radius: 12px;
-  text-decoration: none;
-  font-weight: bold;
-}.banner{
+.app{
   width:100%;
-  max-width:1400px;
-  border-radius:20px;
-  margin-bottom:40px;
-  box-shadow:0 0 40px rgba(255,180,0,.3);
+  overflow:hidden;
 }
 
 .hero{
-  background:#000;
-  padding:0;
+  min-height:100vh;
+  background:
+  linear-gradient(rgba(0,0,0,.75), rgba(0,0,0,.75)),
+  url("https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?q=80&w=2070&auto=format&fit=crop");
+  background-size:cover;
+  background-position:center;
+  display:flex;
+  align-items:center;
+  justify-content:center;
   text-align:center;
-}
-
-.banner{
-  width:100%;
-  display:block;
-  max-width:1400px;
-  margin:auto;
-}
-
-.overlay{
-  padding:40px 20px;
-  background:#000;
+  padding:20px;
 }
 
 .overlay h1{
-  font-size:64px;
+  font-size:70px;
   color:#ffb300;
   font-weight:900;
-  margin-bottom:15px;
+  margin-bottom:20px;
 }
 
 .overlay p{
-  color:white;
   font-size:22px;
-  margin-bottom:30px;
+  margin-bottom:35px;
 }
 
 .buttons{
   display:flex;
-  justify-content:center;
   gap:20px;
+  justify-content:center;
   flex-wrap:wrap;
 }
 
 .buttons a{
-  padding:16px 28px;
-  border-radius:12px;
-  text-decoration:none;
-  color:white;
-  font-weight:bold;
   background:#25D366;
+  color:white;
+  text-decoration:none;
+  padding:18px 30px;
+  border-radius:14px;
+  font-weight:bold;
   transition:.3s;
 }
 
@@ -113,30 +62,78 @@ body {
   transform:scale(1.05);
 }
 
-.insta{
-  background:#E1306C !important;
+.buttons .insta{
+  background:#E1306C;
+}
+
+.cardapio-section{
+  padding:60px 20px;
+  text-align:center;
+}
+
+.cardapio-section h2{
+  color:#ffb300;
+  font-size:50px;
+  margin-bottom:40px;
+}
+
+.cardapio-img{
+  width:100%;
+  max-width:1100px;
+  border-radius:20px;
+  border:3px solid #ffb300;
+  box-shadow:0 0 40px rgba(255,179,0,.3);
+}
+
+.infos{
+  padding:60px 20px;
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+  gap:25px;
+}
+
+.info-box{
+  background:#111;
+  border:2px solid #222;
+  border-radius:18px;
+  padding:30px;
+  text-align:center;
+}
+
+.info-box h3{
+  color:#ffb300;
+  margin-bottom:20px;
+  font-size:28px;
+}
+
+.info-box p{
+  margin-bottom:10px;
+  font-size:18px;
+}
+
+.whats-button{
+  margin-top:20px;
+  display:inline-block;
+  background:#25D366;
+  color:white;
+  text-decoration:none;
+  padding:16px 26px;
+  border-radius:12px;
+  font-weight:bold;
 }
 
 @media(max-width:768px){
 
   .overlay h1{
-    font-size:36px;
+    font-size:42px;
   }
 
   .overlay p{
-    font-size:16px;
+    font-size:18px;
   }
 
-}
-    font-size:16px;
+  .cardapio-section h2{
+    font-size:36px;
   }
 
-  .banner{
-    border-radius:12px;
-  }
-
-}
-
-.botoesHero .insta {
-  background: #d6249f;
 }
