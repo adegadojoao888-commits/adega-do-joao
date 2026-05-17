@@ -1,5 +1,5 @@
 import "./index.css";
-import cardapio from "./Cardapio novo Venda.png";
+import cardapio from "../Cardapio novo Venda.png";
 
 function App() {
 
