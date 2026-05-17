@@ -12,7 +12,6 @@ body{
 
 .app{
   width:100%;
-  overflow:hidden;
 }
 
 .hero{
@@ -55,11 +54,6 @@ body{
   padding:18px 30px;
   border-radius:14px;
   font-weight:bold;
-  transition:.3s;
-}
-
-.buttons a:hover{
-  transform:scale(1.05);
 }
 
 .buttons .insta{
@@ -82,7 +76,6 @@ body{
   max-width:1100px;
   border-radius:20px;
   border:3px solid #ffb300;
-  box-shadow:0 0 40px rgba(255,179,0,.3);
 }
 
 .infos{
