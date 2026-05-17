@@ -7,224 +7,54 @@
 body {
   background: #050505;
   color: white;
-  font-family: Arial, sans-serif;
-}
-
-.app {
-  width: 100%;
-  overflow-x: hidden;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .hero {
   height: 100vh;
-  background-image: url("https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?q=80&w=1600&auto=format&fit=crop");
+  background-image: url('https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?q=80&w=1400&auto=format&fit=crop');
   background-size: cover;
   background-position: center;
-  position: relative;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .overlay {
-  position: absolute;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.75);
-}
-
-.hero-content {
-  position: relative;
-  z-index: 2;
+  background: rgba(0,0,0,0.7);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   text-align: center;
-  max-width: 700px;
   padding: 20px;
-}
-
-.badge {
-  background: #d4a017;
-  color: black;
-  padding: 10px 18px;
-  border-radius: 30px;
-  font-weight: bold;
-  font-size: 14px;
 }
 
 .hero h1 {
-  font-size: 70px;
-  margin-top: 20px;
-  color: #f5c542;
+  font-size: 4rem;
+  color: #f3b300;
 }
 
 .hero p {
-  margin-top: 20px;
-  font-size: 20px;
-  line-height: 1.6;
-  color: #ddd;
-}
-
-.buttons {
-  margin-top: 35px;
-  display: flex;
-  gap: 15px;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.buttons a {
-  background: #d4a017;
-  color: black;
-  text-decoration: none;
-  padding: 15px 28px;
-  border-radius: 10px;
-  font-weight: bold;
-  transition: 0.3s;
-}
-
-.buttons a:hover {
-  transform: scale(1.05);
-}
-
-.instagram {
-  background: white !important;
-}
-
-.section {
-  padding: 80px 20px;
-  max-width: 1200px;
-  margin: auto;
-}
-
-.section h2 {
-  font-size: 40px;
-  color: #f5c542;
-  margin-bottom: 40px;
-  text-align: center;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 25px;
-}
-
-.card {
-  background: #111;
-  border: 2px solid #d4a017;
-  border-radius: 20px;
-  padding: 30px;
-  transition: 0.3s;
-}
-
-.card:hover {
-  transform: translateY(-8px);
-}
-
-.combo-card h3 {
-  font-size: 28px;
-  color: #f5c542;
-}
-
-.combo-card p {
   margin-top: 15px;
-  color: #ddd;
-  line-height: 1.6;
+  font-size: 1.2rem;
 }
 
-.combo-card span {
-  display: inline-block;
-  margin-top: 25px;
-  background: #f5c542;
-  color: black;
-  padding: 12px 18px;
-  border-radius: 10px;
-  font-weight: bold;
-  font-size: 22px;
-}
-
-.products {
+.botoesHero {
+  margin-top: 30px;
   display: flex;
-  flex-direction: column;
   gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.product {
-  background: #111;
-  border-left: 5px solid #d4a017;
-  padding: 18px;
-  border-radius: 10px;
-
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.product span {
-  color: #f5c542;
+.botoesHero a {
+  background: #25D366;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 12px;
+  text-decoration: none;
   font-weight: bold;
 }
 
-.info {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 25px;
-
-  max-width: 1200px;
-  margin: auto;
-
-  padding: 20px;
-  padding-bottom: 100px;
-}
-
-.info-card {
-  background: #111;
-  border: 2px solid #d4a017;
-  border-radius: 20px;
-  padding: 30px;
-}
-
-.info-card h3 {
-  color: #f5c542;
-  margin-bottom: 20px;
-  font-size: 28px;
-}
-
-.info-card p {
-  line-height: 1.8;
-  color: #ddd;
-}
-
-.floating {
-  position: fixed;
-  right: 25px;
-  bottom: 25px;
-
-  width: 70px;
-  height: 70px;
-
-  border-radius: 50%;
-  background: #25d366;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  text-decoration: none;
-  font-size: 34px;
-
-  box-shadow: 0 0 20px rgba(0,0,0,0.5);
-}
-
-@media (max-width: 768px) {
-  .hero h1 {
-    font-size: 48px;
-  }
-
-  .hero p {
-    font-size: 18px;
-  }
-
-  .section h2 {
-    font-size: 32px;
-  }
+.botoesHero .insta {
+  background: #d6249f;
 }
