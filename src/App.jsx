@@ -150,36 +150,42 @@ export default function App() {
 
       <section className="hero">
 
-        <div className="overlay">
+  <img
+    src="/Cardapio novo Venda.png"
+    alt="Cardápio Adega do João"
+    className="banner"
+  />
 
-          <h1>ADEGA DO JOÃO</h1>
+  <div className="overlay">
 
-          <p>
-            Bebidas geladas • Delivery rápido • Qualidade e confiança
-          </p>
+    <h1>ADEGA DO JOÃO</h1>
 
-          <div className="buttons">
+    <p>
+      Bebidas geladas • Delivery rápido • Qualidade e confiança
+    </p>
 
-            <a
-              href={`https://wa.me/${whatsapp}`}
-              target="_blank"
-            >
-              Pedir no WhatsApp
-            </a>
+    <div className="buttons">
 
-            <a
-              href="https://instagram.com/adegadojoaooficial"
-              target="_blank"
-              className="insta"
-            >
-              Instagram
-            </a>
+      <a
+        href="https://wa.me/5511998923563"
+        target="_blank"
+      >
+        Pedir no WhatsApp
+      </a>
 
-          </div>
+      <a
+        href="https://instagram.com/adegadojoaooficial"
+        target="_blank"
+        className="insta"
+      >
+        Instagram
+      </a>
 
-        </div>
+    </div>
 
-      </section>
+  </div>
+
+</section>
 
       {categorias.map(categoria => (
 
