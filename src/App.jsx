@@ -2,6 +2,7 @@ import "./index.css";
 import cardapio from "./Cardapio novo Venda.png";
 
 function App() {
+
   const whatsapp = "5511998923563";
 
   return (
@@ -55,21 +56,29 @@ function App() {
       <section className="infos">
 
         <div className="info-box">
+
           <h3>📍 Endereço</h3>
+
           <p>Rua General Frederico Sólon portão 10</p>
           <p>Chora Menino - SP</p>
           <p>CEP: 02462040</p>
+
         </div>
 
         <div className="info-box">
+
           <h3>🕒 Horário</h3>
+
           <p>Seg a Quinta: 13h às 22h</p>
           <p>Sexta e Sábado: 13h às 00h</p>
           <p>Domingo: 12h às 19h</p>
+
         </div>
 
         <div className="info-box">
+
           <h3>📲 Contato</h3>
+
           <p>(11) 99892-3563</p>
 
           <a
