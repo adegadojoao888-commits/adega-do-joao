@@ -75,7 +75,7 @@ function App() {
 
           <h3>📍 Endereço</h3>
 
-          <p>Rua General Frederico Sólon portão 10</p>
+          <p>Rua General Frederico Sólon 244</p>
           <p>Chora Menino - SP</p>
           <p>CEP: 02462040</p>
 
