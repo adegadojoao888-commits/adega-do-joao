@@ -1,5 +1,6 @@
 import "./index.css";
 import cardapio from "../Cardapio novo Venda.png";
+import combos from "../CARDAPIO COMBO WHTS.png";
 
 function App() {
 
@@ -54,6 +55,21 @@ function App() {
       </section>
 
       <section className="infos">
+        </section>
+
+<section className="cardapio-section">
+
+  <h2>COMBOS ESPECIAIS</h2>
+
+  <img
+    src={combos}
+    alt="Combos Adega do João"
+    className="cardapio-img"
+  />
+
+</section>
+
+<section className="infos">
 
         <div className="info-box">
 
