@@ -3,7 +3,6 @@ import cardapio from "../Cardapio novo Venda.png";
 import combos from "../CARDAPIO COMBO WHTS.png";
 
 function App() {
-
   const whatsapp = "5511998923563";
 
   return (
@@ -24,13 +23,22 @@ function App() {
             <a
               href={`https://wa.me/${whatsapp}?text=Olá,%20vim%20pelo%20site%20da%20Adega%20do%20João`}
               target="_blank"
+              rel="noreferrer"
             >
               Pedir no WhatsApp
             </a>
 
             <a
+              href="#cardapio"
+              className="cardapio-btn"
+            >
+              🍺 Ver Cardápio
+            </a>
+
+            <a
               href="https://instagram.com/adegadojoaooficial"
               target="_blank"
+              rel="noreferrer"
               className="insta"
             >
               Instagram
@@ -42,7 +50,7 @@ function App() {
 
       </section>
 
-      <section className="cardapio-section">
+      <section id="cardapio" className="cardapio-section">
 
         <h2>CARDÁPIO</h2>
 
@@ -54,22 +62,19 @@ function App() {
 
       </section>
 
+      <section className="cardapio-section">
+
+        <h2>COMBOS ESPECIAIS</h2>
+
+        <img
+          src={combos}
+          alt="Combos Adega do João"
+          className="cardapio-img"
+        />
+
+      </section>
+
       <section className="infos">
-        </section>
-
-<section className="cardapio-section">
-
-  <h2>COMBOS ESPECIAIS</h2>
-
-  <img
-    src={combos}
-    alt="Combos Adega do João"
-    className="cardapio-img"
-  />
-
-</section>
-
-<section className="infos">
 
         <div className="info-box">
 
@@ -101,6 +106,7 @@ function App() {
             className="whats-button"
             href={`https://wa.me/${whatsapp}`}
             target="_blank"
+            rel="noreferrer"
           >
             CHAMAR NO WHATSAPP
           </a>
