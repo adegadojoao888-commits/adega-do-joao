@@ -15,9 +15,12 @@ function App() {
           <h1>ADEGA DO JOÃO</h1>
 
           <p>
-            Bebidas geladas • Delivery rápido • Qualidade e confiança
-          </p>
+  Bebidas geladas • Delivery rápido • Qualidade e confiança
+</p>
 
+<div className="promo-banner">
+  🔥 CARVÃO 2KG APENAS R$ 13,99
+</div>
           <div className="buttons">
 
             <a
