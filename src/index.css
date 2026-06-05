@@ -130,3 +130,36 @@ body{
   }
 
 }
+html {
+  scroll-behavior: smooth;
+}
+
+.cardapio-btn {
+  background: #f4b400;
+  color: #000;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 14px 28px;
+  border-radius: 12px;
+  transition: 0.3s;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardapio-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(244, 180, 0, 0.4);
+}
+
+.promo-banner {
+  margin: 20px auto;
+  padding: 14px 24px;
+  background: linear-gradient(90deg, #ffb300, #ff6f00);
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 800;
+  border-radius: 12px;
+  display: inline-block;
+  box-shadow: 0 4px 15px rgba(255, 140, 0, 0.4);
+}
