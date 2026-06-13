@@ -127,9 +127,10 @@ return ( <div className="app">
   </section>
 
 </div>
-```
+      </section>
 
-);
+    </div>
+  );
 }
 
 export default App;
