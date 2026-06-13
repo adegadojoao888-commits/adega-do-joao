@@ -9,7 +9,6 @@ return ( <div className="app">
 
 ```
   <section className="hero">
-
     <div className="overlay">
 
       <h1>ADEGA DO JOÃO</h1>
@@ -60,7 +59,6 @@ return ( <div className="app">
       </div>
 
     </div>
-
   </section>
 
   <section id="cardapio" className="cardapio-section">
